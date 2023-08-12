@@ -1,0 +1,101 @@
+.marquee-background-color {
+  background-color: #A80000;
+}
+
+.text-size {
+  font-size: small;
+}
+
+.img {
+  width: 70px;
+  height: 50px;
+}
+
+.text-dec-color {
+  text-decoration: none;
+  color: white;
+}
+
+span {
+  display: inline-block;
+  border-color: #A80000;
+
+}
+
+button {
+  border-radius: 4px;
+  padding: 5px;
+  background-color: white;
+  color: #A80000;
+  border-color: #A80000;
+}
+
+.know-more {
+  border-radius: 10px;
+  padding: 10px;
+  color: #A80000;
+  border-color: #A80000;
+  background-color: white;
+
+}
+
+.mision,
+.vision {
+  color: #A80000;
+  font-style: bold;
+}
+
+.form-color {
+  color: rgb(255, 199, 208);
+}
+
+/* slider css */
+
+.slide-content,
+.slide-content-1 {
+  margin: 0 40px;
+  overflow: hidden;
+}
+
+.card {
+  background-color: #FFF;
+
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #4070F4;
+  border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #4070F4;
+}
+
+.overlay::after {
+  border-radius: 0 25px 0 0;
+  background-color: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+
+  .slide-content,
+  .slide-content-1 {
+    margin: 0 10px;
+  }
+
+  .swiper-navBtn {
+    display: none;
+  }
+}
